@@ -6,6 +6,14 @@ def jacobi(a, n):
         a, n = n, a; r = -r if a & 3 == 3 and n & 3 == 3 else r; a %= n
     return r if n == 1 else 0
 
+# from sympy.ntheory import jacobi_symbol
+
+# # Example usage
+# a = 5
+# n = 11
+# result = jacobi_symbol(a, n)
+# print(f"The Jacobi symbol of ({a}/{n}) is {result}")
+
 def prime_test(n, k=5):
     if n == 2: return True
     if n < 2 or n % 2 == 0: return False
