@@ -7,6 +7,7 @@ def jacobi(a, n):
     return r if n == 1 else 0
 
 # from sympy.ntheory import jacobi_symbol
+#pip install sympy
 
 # # Example usage
 # a = 5
