@@ -1,3 +1,4 @@
+# pip install tinyec pycryptodome
 from tinyec import registry
 from tinyec.ec import Point
 import secrets
